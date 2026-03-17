@@ -1,0 +1,96 @@
+﻿@model List<ClinicQueue.Models.Appointment>
+@{
+    ViewData["Title"] = "My Appointments";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div class="d-flex align-items-center">
+        <i class="bi bi-calendar-check-fill text-primary fs-3 me-2"></i>
+        <h4 class="fw-bold mb-0">My Appointments</h4>
+    </div>
+    <a href="/Patient/BookAppointment" class="btn btn-primary btn-sm">
+        <i class="bi bi-calendar-plus me-1"></i>Book New
+    </a>
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (!Model.Any())
+{
+    <div class="card border-0 shadow-sm">
+        <div class="card-body text-center py-5">
+            <i class="bi bi-calendar-x text-muted fs-1"></i>
+            <p class="text-muted mt-2">No appointments yet.</p>
+            <a href="/Patient/BookAppointment" class="btn btn-primary btn-sm">
+                Book Now
+            </a>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row g-3">
+        @foreach (var a in Model.OrderByDescending(x => x.Date))
+        {
+            var badge = a.Status.ToLower() switch
+            {
+                "scheduled" => "bg-primary",
+                "completed" => "bg-success",
+                "cancelled" => "bg-danger",
+                "in-progress" => "bg-warning text-dark",
+                "queued" => "bg-info text-dark",
+                "pending" => "bg-secondary",
+                _ => "bg-secondary"
+            };
+
+            // use helper properties for correct values
+            var displayDate = a.Date != DateTime.MinValue
+            ? a.Date.ToString("dd MMM yyyy")
+            : "Date TBD";
+            var displayDoctor = a.DisplayDoctorName;
+            var displaySlot = a.DisplayTimeSlot;
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-header bg-white d-flex justify-content-between
+                                        align-items-center">
+                        <span class="fw-semibold text-primary small">
+                            <i class="bi bi-calendar3 me-1"></i>@displayDate
+                        </span>
+                        <span class="badge @badge text-capitalize">@a.Status</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-1">
+                            <span class="text-muted small">Doctor:</span>
+                            <strong class="ms-1">@displayDoctor</strong>
+                        </p>
+                        <p class="mb-1">
+                            <span class="text-muted small">
+                                <i class="bi bi-clock me-1"></i>Time:
+                            </span>
+                            <strong class="ms-1">@displaySlot</strong>
+                        </p>
+                        @if (!string.IsNullOrEmpty(a.Reason))
+                        {
+                            <p class="mb-0">
+                                <span class="text-muted small">Reason:</span>
+                                <span class="ms-1">@a.Reason</span>
+                            </p>
+                        }
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <a href="/Patient/AppointmentDetails/@a.Id"
+                           class="btn btn-outline-primary btn-sm w-100">
+                            <i class="bi bi-eye me-1"></i>View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+

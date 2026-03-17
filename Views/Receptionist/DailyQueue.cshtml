@@ -1,0 +1,91 @@
+﻿@model List<ClinicQueue.Models.QueueEntry>
+
+@{
+    ViewData["Title"] = "Daily Queue";
+    var selDate = ViewBag.SelectedDate as string
+                  ?? DateTime.Today.ToString("yyyy-MM-dd");
+
+    var display = DateTime.Parse(selDate)
+                   .ToString("dddd, dd MMMM yyyy");
+
+    var total = Model.Count;
+    var waiting = Model.Count(q => q.Status.ToLower() == "waiting");
+    var completed = Model.Count(q => q.Status.ToLower() == "completed");
+}
+
+<div class="d-flex justify-content-between mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Daily Queue</h4>
+        <small class="text-muted">@display</small>
+    </div>
+
+    <form method="get">
+        <input type="date" name="date" value="@selDate" />
+        <button class="btn btn-primary btn-sm">Load</button>
+    </form>
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center">No Queue Found</div>
+}
+else
+{
+    <div class="row mb-3">
+        <div class="col">
+            <div class="card text-center">
+                <h5>@total</h5>
+                <small>Total</small>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-center bg-warning-subtle">
+                <h5 class="text-warning">@waiting</h5>
+                <small>Waiting</small>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-center bg-success-subtle">
+                <h5 class="text-success">@completed</h5>
+                <small>Done</small>
+            </div>
+        </div>
+    </div>
+
+    <table class="table table-hover">
+        <thead class="table-light">
+            <tr>
+                <th>Token</th>
+                <th>Patient</th>
+                <th>Doctor</th>
+                <th>Check-In</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var q in Model.OrderBy(x => x.TokenNumber))
+            {
+                var badge = q.Status.ToLower() switch
+                {
+                    "waiting" => "bg-warning text-dark",
+                    "completed" => "bg-success",
+                    "skipped" => "bg-danger",
+                    _ => "bg-secondary"
+                };
+
+                <tr>
+                    <td><span class="badge bg-dark">#@q.TokenNumber</span></td>
+                    <td>@q.DisplayPatientName</td>
+                    <td>@q.DisplayDoctorName</td>
+                    <td>@q.DisplayCheckInTime</td>
+                    <td><span class="badge @badge">@q.Status</span></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

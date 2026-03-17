@@ -1,0 +1,99 @@
+/* ClinicQueue - minimal custom styles */
+
+body {
+    background: #f5f7fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* navbar */
+.navbar {
+    box-shadow: 0 2px 6px rgba(0,0,0,.12);
+}
+
+/* cards */
+.card {
+    border-radius: 10px;
+}
+
+/* dashboard hover cards */
+.dash-card {
+    transition: transform .15s, box-shadow .15s;
+    cursor: pointer;
+}
+
+    .dash-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 18px rgba(13,110,253,.18) !important;
+    }
+
+/* icon boxes on dashboard */
+.icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* small avatar circle */
+.avatar-sm {
+    width: 32px;
+    height: 32px;
+    font-size: .8rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+/* table headers */
+.table thead th {
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    color: #6c757d;
+    font-weight: 700;
+}
+
+/* form focus */
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 .2rem rgba(13,110,253,.12);
+}
+
+/* accordion */
+.accordion-button:not(.collapsed) {
+    background: #e8f0fe;
+    color: #0d6efd;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* footer */
+footer {
+    font-size: .82rem;
+}
+
+/* buttons */
+.btn {
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}

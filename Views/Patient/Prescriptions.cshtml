@@ -1,0 +1,76 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model List<ClinicQueue.Models.Prescription>
+@{
+    ViewData["Title"] = "My Prescriptions";
+}
+
+<div class="d-flex align-items-center mb-3">
+    <i class="bi bi-capsule-pill text-primary fs-3 me-2"></i>
+    <h4 class="fw-bold mb-0">My Prescriptions</h4>
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (!Model.Any())
+{
+    <div class="card border-0 shadow-sm">
+        <div class="card-body text-center py-5">
+            <i class="bi bi-capsule text-muted fs-1"></i>
+            <p class="text-muted mt-2">No prescriptions found.</p>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row g-3">
+        @foreach (var rx in Model.OrderByDescending(p => p.CreatedAt))
+        {
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                        <span class="fw-semibold text-primary small">
+                            <i class="bi bi-capsule me-1"></i>Prescription
+                        </span>
+                        <small class="text-muted">
+                            @(rx.CreatedAt?.ToString("dd MMM yyyy") ?? "—")
+                        </small>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-1">
+                            <span class="text-muted small">Doctor:</span>
+                            <strong>@(rx.DoctorName.Length > 0 ? rx.DoctorName : "—")</strong>
+                        </p>
+                        @if (!string.IsNullOrEmpty(rx.Diagnosis))
+                        {
+                            <p class="mb-1">
+                                <span class="text-muted small">Diagnosis:</span>
+                                <span class="badge bg-info-subtle text-info border border-info">
+                                    @rx.Diagnosis
+                                </span>
+                            </p>
+                        }
+                        <p class="mb-1">
+                            <span class="text-muted small d-block">Medicines:</span>
+                            <span class="small bg-light d-block p-2 rounded">@rx.Medicines</span>
+                        </p>
+                        @if (!string.IsNullOrEmpty(rx.Instructions))
+                        {
+                            <p class="mb-0 text-muted small mt-1">
+                                <i class="bi bi-info-circle me-1"></i>@rx.Instructions
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

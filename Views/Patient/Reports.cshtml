@@ -1,0 +1,76 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+@model List<ClinicQueue.Models.Report>
+@{
+    ViewData["Title"] = "My Reports";
+}
+
+<div class="d-flex align-items-center mb-3">
+    <i class="bi bi-file-medical-fill text-primary fs-3 me-2"></i>
+    <h4 class="fw-bold mb-0">My Medical Reports</h4>
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (!Model.Any())
+{
+    <div class="card border-0 shadow-sm">
+        <div class="card-body text-center py-5">
+            <i class="bi bi-file-earmark-x text-muted fs-1"></i>
+            <p class="text-muted mt-2">No reports found.</p>
+        </div>
+    </div>
+}
+else
+{
+    <div class="accordion" id="reportsAcc">
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            var r = Model[i];
+            var cId = "rep-" + i;
+            var hId = "hd-" + i;
+            <div class="accordion-item border-0 shadow-sm mb-2">
+                <h2 class="accordion-header" id="@hId">
+                    <button class="accordion-button @(i != 0 ? "collapsed" : "") fw-semibold"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#@cId">
+                        <div class="d-flex align-items-center gap-2 w-100 me-2">
+                            <i class="bi bi-file-earmark-text text-primary"></i>
+                            <div>
+                                <span>@r.Title</span>
+                                <small class="text-muted d-block fw-normal">
+                                    Dr. @(r.DoctorName ?? "—") &nbsp;|&nbsp;
+                                    @(r.CreatedAt?.ToString("dd MMM yyyy") ?? "—")
+                                </small>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="@cId" class="accordion-collapse collapse @(i == 0 ? "show" : "")"
+                     data-bs-parent="#reportsAcc">
+                    <div class="accordion-body">
+                        <p class="mb-1">
+                            <span class="text-muted small">Findings:</span>
+                        </p>
+                        <div class="bg-light p-2 rounded mb-2 small">@r.Content</div>
+                        @if (!string.IsNullOrEmpty(r.Remarks))
+                        {
+                            <p class="text-muted small fst-italic mb-0">
+                                <i class="bi bi-chat-quote me-1"></i>@r.Remarks
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

@@ -1,0 +1,76 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model PrescriptionVM
+@{
+    ViewData["Title"] = "Add Prescription";
+}
+
+<div class="d-flex align-items-center mb-3">
+    <i class="bi bi-capsule-pill text-primary fs-3 me-2"></i>
+    <h4 class="fw-bold mb-0">Write Prescription</h4>
+</div>
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <i class="bi bi-pen me-1"></i>Prescription Details
+            </div>
+            <div class="card-body p-4">
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger py-2">
+                        <div asp-validation-summary="All" class="mb-0"></div>
+                    </div>
+                }
+
+                <div class="alert alert-info small py-2 mb-3">
+                    Appointment ID: <code>@Model.AppointmentId</code>
+                </div>
+
+                <form asp-action="AddPrescription" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="AppointmentId" />
+
+                    <div class="mb-3">
+                        <label asp-for="Diagnosis" class="form-label fw-semibold">Diagnosis</label>
+                        <input asp-for="Diagnosis" class="form-control"
+                               placeholder="e.g. Viral fever" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Medicines" class="form-label fw-semibold">
+                            Medicines & Dosage <span class="text-danger">*</span>
+                        </label>
+                        <textarea asp-for="Medicines" class="form-control" rows="4"
+                                  placeholder="e.g.&#10;Paracetamol 500mg - twice daily&#10;Cetirizine 10mg - at night"></textarea>
+                        <span asp-validation-for="Medicines" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="Instructions" class="form-label fw-semibold">
+                            Instructions <small class="text-muted">(optional)</small>
+                        </label>
+                        <textarea asp-for="Instructions" class="form-control" rows="2"
+                                  placeholder="e.g. Take after meals, drink lots of water"></textarea>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-save me-1"></i>Save Prescription
+                        </button>
+                        <a href="/Doctor/Queue" class="btn btn-outline-secondary">
+                            <i class="bi bi-arrow-left me-1"></i>Back
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

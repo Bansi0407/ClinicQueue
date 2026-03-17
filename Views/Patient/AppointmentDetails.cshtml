@@ -1,0 +1,161 @@
+﻿@model ClinicQueue.Models.Appointment
+@{
+    ViewData["Title"] = "Appointment Details";
+
+    var badge = Model.Status.ToLower() switch
+    {
+        "scheduled" => "bg-primary",
+        "completed" => "bg-success",
+        "cancelled" => "bg-danger",
+        "in-progress" => "bg-warning text-dark",
+        "queued" => "bg-info text-dark",
+        "pending" => "bg-secondary",
+        _ => "bg-secondary"
+    };
+
+    // get correct values using helper properties
+    var displayDate = Model.Date != DateTime.MinValue
+                        ? Model.Date.ToString("dddd, dd MMMM yyyy")
+                        : "Date not available";
+
+    var displayDoctor = Model.DisplayDoctorName;
+    var displaySlot = Model.DisplayTimeSlot;
+}
+
+<div class="d-flex align-items-center mb-3">
+    <i class="bi bi-calendar2-check-fill text-primary fs-3 me-2"></i>
+    <h4 class="fw-bold mb-0">Appointment Details</h4>
+</div>
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-white d-flex justify-content-between
+                        align-items-center py-3">
+                <span class="fw-bold">
+                    <i class="bi bi-calendar3 me-2 text-primary"></i>
+                    @displayDate
+                </span>
+                <span class="badge @badge text-capitalize fs-6">
+                    @Model.Status
+                </span>
+            </div>
+            <div class="card-body">
+                <table class="table table-borderless mb-0">
+                    <tr>
+                        <th class="text-muted" style="width:35%">
+                            <i class="bi bi-person-fill-up me-1"></i>Doctor
+                        </th>
+                        <td class="fw-semibold">@displayDoctor</td>
+                    </tr>
+                    <tr>
+                        <th class="text-muted">
+                            <i class="bi bi-clock me-1"></i>Time Slot
+                        </th>
+                        <td>@displaySlot</td>
+                    </tr>
+                    <tr>
+                        <th class="text-muted">
+                            <i class="bi bi-chat-left-text me-1"></i>Reason
+                        </th>
+                        <td>
+                            @(string.IsNullOrEmpty(Model.Reason)
+                                                        ? "Not specified" : Model.Reason)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="text-muted">
+                            <i class="bi bi-sticky me-1"></i>Notes
+                        </th>
+                        <td>
+                            @(string.IsNullOrEmpty(Model.Notes)
+                                                        ? "None" : Model.Notes)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="text-muted">
+                            <i class="bi bi-calendar-check me-1"></i>Booked On
+                        </th>
+                        <td>
+                            @(Model.CreatedAt?.ToString("dd MMM yyyy hh:mm tt") ?? "—")
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="text-muted">
+                            <i class="bi bi-hash me-1"></i>ID
+                        </th>
+                        <td><code class="small">@Model.Id</code></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer bg-white border-0 pt-0">
+                <a href="/Patient/MyAppointments"
+                   class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-arrow-left me-1"></i>Back to My Appointments
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-5 mt-3 mt-md-0">
+        <div class="card border-0 shadow-sm mb-3">
+            <div class="card-header bg-white fw-semibold border-bottom">
+                <i class="bi bi-lightning-charge-fill text-warning me-2"></i>
+                Quick Actions
+            </div>
+            <div class="card-body d-grid gap-2">
+                <a href="/Patient/Prescriptions"
+                   class="btn btn-outline-primary btn-sm">
+                    <i class="bi bi-capsule me-1"></i>View Prescriptions
+                </a>
+                <a href="/Patient/Reports"
+                   class="btn btn-outline-success btn-sm">
+                    <i class="bi bi-file-medical me-1"></i>View Reports
+                </a>
+                <a href="/Patient/BookAppointment"
+                   class="btn btn-outline-dark btn-sm">
+                    <i class="bi bi-calendar-plus me-1"></i>Book Another
+                </a>
+            </div>
+        </div>
+
+        @* raw api data debug box — helps find real field names *@
+        <div class="card border-0 border-start border-4 border-info">
+            <div class="card-body small">
+                <p class="fw-bold text-info mb-2">
+                    <i class="bi bi-bug me-1"></i>Raw API Data
+                </p>
+                <table class="table table-sm table-borderless mb-0 small">
+                    <tr>
+                        <td class="text-muted">DateRaw</td>
+                        <td><code>@(Model.DateRaw ?? "null")</code></td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">AppointmentDateRaw</td>
+                        <td><code>@(Model.AppointmentDateRaw ?? "null")</code></td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">DoctorName</td>
+                        <td><code>@(Model.DoctorName ?? "null")</code></td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Doctor.Name</td>
+                        <td><code>@(Model.Doctor?.Name ?? "null")</code></td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">TimeSlot</td>
+                        <td><code>@(Model.TimeSlot ?? "null")</code></td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Slot</td>
+                        <td><code>@(Model.Slot ?? "null")</code></td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Status</td>
+                        <td><code>@Model.Status</code></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

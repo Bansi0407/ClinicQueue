@@ -1,0 +1,367 @@
+﻿@* 
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+@{
+}
+
+
+@model BookAppointmentVM
+@{
+    ViewData["Title"] = "Book Appointment";
+}
+
+<div class="d-flex align-items-center mb-3">
+    <i class="bi bi-calendar-plus-fill text-primary fs-3 me-2"></i>
+    <h4 class="fw-bold mb-0">Book Appointment</h4>
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-warning">@ViewBag.Error</div>
+}
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <i class="bi bi-calendar-event me-1"></i>Appointment Details
+            </div>
+            <div class="card-body p-4">
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger py-2">
+                        <div asp-validation-summary="All" class="mb-0"></div>
+                    </div>
+                }
+
+                <form asp-action="BookAppointment" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <div class="mb-3">
+                        <label asp-for="DoctorId" class="form-label fw-semibold">Doctor</label>
+                        <select asp-for="DoctorId" asp-items="ViewBag.Doctors" class="form-select">
+                            <option value="">-- Choose Doctor --</option>
+                        </select>
+                        <span asp-validation-for="DoctorId" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Date" class="form-label fw-semibold">Date</label>
+                        <input asp-for="Date" type="date" class="form-control"
+                               min="@DateTime.Today.AddDays(1).ToString("yyyy-MM-dd")" />
+                        <span asp-validation-for="Date" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="TimeSlot" class="form-label fw-semibold">
+                            Time Slot <small class="text-muted">(optional)</small>
+                        </label>
+                        <select asp-for="TimeSlot" asp-items="ViewBag.TimeSlots"
+                                class="form-select">
+                            <option value="">-- Choose Time --</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Reason" class="form-label fw-semibold">
+                            Reason <small class="text-muted">(optional)</small>
+                        </label>
+                        <input asp-for="Reason" class="form-control"
+                               placeholder="e.g. Fever, Checkup" />
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="Notes" class="form-label fw-semibold">
+                            Notes <small class="text-muted">(optional)</small>
+                        </label>
+                        <textarea asp-for="Notes" class="form-control" rows="2"
+                                  placeholder="Any extra info..."></textarea>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-calendar-check me-1"></i>Book
+                        </button>
+                        <a href="/Patient/MyAppointments" class="btn btn-outline-secondary">
+                            <i class="bi bi-arrow-left me-1"></i>Back
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-5 mt-3 mt-md-0">
+        <div class="card border-0 bg-light">
+            <div class="card-body">
+                <h6 class="fw-bold text-primary">
+                    <i class="bi bi-lightbulb me-1"></i>Tips
+                </h6>
+                <ul class="list-unstyled small text-muted mt-2">
+                    <li class="mb-1">✅ Book at least 1 day in advance</li>
+                    <li class="mb-1">✅ Arrive 10 mins before your slot</li>
+                    <li class="mb-1">✅ Bring old prescriptions if any</li>
+                    <li class="mb-1">✅ Mention all symptoms in reason</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> *@
+
+
+
+
+
+
+
+
+
+
+
+@model BookAppointmentVM
+@{
+    ViewData["Title"] = "Book Appointment";
+    bool doctorsLoaded = ViewBag.DoctorsLoaded == true;
+    int doctorCount = ViewBag.DoctorCount ?? 0;
+    var patientId = ViewBag.PatientId as string ?? "";
+}
+
+<div class="d-flex align-items-center mb-3">
+    <i class="bi bi-calendar-plus-fill text-primary fs-3 me-2"></i>
+    <h4 class="fw-bold mb-0">Book Appointment</h4>
+</div>
+
+@if (!doctorsLoaded)
+{
+    <div class="alert alert-warning border-2 mb-4">
+        <h6 class="fw-bold mb-2">
+            <i class="bi bi-exclamation-triangle-fill me-2"></i>
+            Doctor list is empty — Follow these steps:
+        </h6>
+        <ol class="mb-2 ps-3 small">
+            <li class="mb-1">
+                <a href="/Auth/Logout" class="btn btn-sm btn-outline-dark">Logout</a>
+                then login as <strong>Admin</strong>
+            </li>
+            <li class="mb-1">Go to <strong>Users</strong> page (this caches doctors)</li>
+            <li class="mb-1">Logout → Login as <strong>Patient</strong> again</li>
+            <li>Come back here — dropdown will have doctors ✅</li>
+        </ol>
+    </div>
+}
+
+@if (doctorsLoaded)
+{
+    <div class="alert alert-success py-2 mb-3 small">
+        <i class="bi bi-check-circle-fill me-2"></i>
+        <strong>@doctorCount doctor(s) loaded</strong>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <i class="bi bi-calendar-event me-1"></i>Appointment Details
+            </div>
+            <div class="card-body p-4">
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger py-2">
+                        <div asp-validation-summary="All" class="mb-0"></div>
+                    </div>
+                }
+
+                <form asp-action="BookAppointment" method="post">
+                    @Html.AntiForgeryToken()
+
+                    @* doctor dropdown *@
+                    <div class="mb-3">
+                        <label asp-for="DoctorId" class="form-label fw-semibold">
+                            Doctor <span class="text-danger">*</span>
+                        </label>
+                        @if (!doctorsLoaded)
+                        {
+                            <select class="form-select border-warning" disabled>
+                                <option>No doctors available</option>
+                            </select>
+                        }
+                        else
+                        {
+                            <select asp-for="DoctorId"
+                                    asp-items="ViewBag.Doctors"
+                                    class="form-select form-select-lg">
+                                <option value="">-- Choose Doctor --</option>
+                            </select>
+                            <span asp-validation-for="DoctorId" class="text-danger small"></span>
+                        }
+                    </div>
+
+                    @* date *@
+                    <div class="mb-3">
+                        <label asp-for="Date" class="form-label fw-semibold">
+                            Date <span class="text-danger">*</span>
+                        </label>
+                        <input asp-for="Date"
+                               type="date"
+                               class="form-control form-control-lg"
+                               min="@DateTime.Today.AddDays(1).ToString("yyyy-MM-dd")" />
+                        <span asp-validation-for="Date" class="text-danger small"></span>
+                    </div>
+
+                    @* time slot *@
+                    <div class="mb-3">
+                        <label asp-for="TimeSlot" class="form-label fw-semibold">
+                            Time Slot
+                            <small class="text-muted">(format: HH:MM-HH:MM)</small>
+                        </label>
+                        <select asp-for="TimeSlot"
+                                asp-items="ViewBag.TimeSlots"
+                                class="form-select">
+                            <option value="">-- Choose Time --</option>
+                        </select>
+                        <div class="form-text text-muted">
+                            <i class="bi bi-info-circle me-1"></i>
+                            Each slot is 15 minutes e.g. <code>10:00-10:15</code>
+                        </div>
+                    </div>
+
+                    @* reason *@
+                    <div class="mb-3">
+                        <label asp-for="Reason" class="form-label fw-semibold">
+                            Reason <small class="text-muted">(optional)</small>
+                        </label>
+                        <input asp-for="Reason" class="form-control"
+                               placeholder="e.g. Fever, Checkup" />
+                    </div>
+
+                    @* notes *@
+                    <div class="mb-4">
+                        <label asp-for="Notes" class="form-label fw-semibold">
+                            Notes <small class="text-muted">(optional)</small>
+                        </label>
+                        <textarea asp-for="Notes" class="form-control" rows="2"
+                                  placeholder="Any extra info..."></textarea>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        @if (doctorsLoaded)
+                        {
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="bi bi-calendar-check me-1"></i>Book Appointment
+                            </button>
+                        }
+                        else
+                        {
+                            <button type="button" class="btn btn-secondary btn-lg" disabled>
+                                <i class="bi bi-calendar-check me-1"></i>Book Appointment
+                            </button>
+                        }
+                        <a href="/Patient/MyAppointments"
+                           class="btn btn-outline-secondary btn-lg">
+                            <i class="bi bi-arrow-left me-1"></i>Back
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @* right panel *@
+    <div class="col-md-5 mt-3 mt-md-0">
+
+        @* time slot reference table *@
+        <div class="card border-0 shadow-sm mb-3">
+            <div class="card-header bg-white fw-semibold border-bottom">
+                <i class="bi bi-clock me-2 text-primary"></i>Available Time Slots
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-sm table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="ps-3">Morning</th>
+                                <th>Afternoon</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ps-3 small"><code>09:00-09:15</code></td>
+                                <td class="small"><code>14:00-14:15</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>09:15-09:30</code></td>
+                                <td class="small"><code>14:15-14:30</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>09:30-09:45</code></td>
+                                <td class="small"><code>14:30-14:45</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>09:45-10:00</code></td>
+                                <td class="small"><code>14:45-15:00</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>10:00-10:15</code></td>
+                                <td class="small"><code>15:00-15:15</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>10:15-10:30</code></td>
+                                <td class="small"><code>15:15-15:30</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>10:30-10:45</code></td>
+                                <td class="small"><code>15:30-15:45</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>10:45-11:00</code></td>
+                                <td class="small"><code>15:45-16:00</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>11:00-11:15</code></td>
+                                <td class="small"><code>16:00-16:15</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>11:15-11:30</code></td>
+                                <td class="small"><code>16:15-16:30</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>11:30-11:45</code></td>
+                                <td class="small"><code>16:30-16:45</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>11:45-12:00</code></td>
+                                <td class="small"><code>16:45-17:00</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>12:00-12:15</code></td>
+                                <td class="small"><code>17:00-17:15</code></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 small"><code>12:15-12:30</code></td>
+                                <td class="small"><code>17:15-17:30</code></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        @* tips *@
+        <div class="card border-0 bg-light">
+            <div class="card-body">
+                <h6 class="fw-bold text-primary">
+                    <i class="bi bi-lightbulb me-1"></i>Tips
+                </h6>
+                <ul class="list-unstyled small text-muted mt-2">
+                    <li class="mb-1">✅ Book at least 1 day in advance</li>
+                    <li class="mb-1">✅ Arrive 10 mins before your slot</li>
+                    <li class="mb-1">✅ Bring old prescriptions if any</li>
+                    <li class="mb-1">✅ Each slot is 15 minutes long</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

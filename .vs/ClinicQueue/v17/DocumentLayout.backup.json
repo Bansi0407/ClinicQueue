@@ -1,0 +1,905 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\shared\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\shared\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\receptionist\\dailyqueue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\receptionist\\dailyqueue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\patient\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\patient\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\patient\\prescriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\patient\\prescriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\patient\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\patient\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\patient\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\patient\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\patient\\appointmentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\patient\\appointmentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\doctor\\queue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\doctor\\queue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\doctor\\addreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\doctor\\addreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\doctor\\addprescription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\doctor\\addprescription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\admin\\clinic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\admin\\clinic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\viewmodels\\reportvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:viewmodels\\reportvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\viewmodels\\prescriptionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:viewmodels\\prescriptionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\viewmodels\\bookappointmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:viewmodels\\bookappointmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\receptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\receptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\doctorscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\doctorscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\interfaces\\ireceptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\interfaces\\ireceptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\interfaces\\idoctorscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\interfaces\\idoctorscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\interfaces\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\interfaces\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\models\\queueentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:models\\queueentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\controllers\\receptionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:controllers\\receptionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|d:\\sem-6\\project\\adv.net\\clinicqueue\\clinicqueue.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C3D74BDC-452E-46F7-8CC4-B5567D2E26AB}|ClinicQueue.csproj|solutionrelative:clinicqueue.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reports.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\Reports.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Reports.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\Reports.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Reports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:31:14.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DailyQueue.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Receptionist\\DailyQueue.cshtml",
+              "RelativeDocumentMoniker": "Views\\Receptionist\\DailyQueue.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Receptionist\\DailyQueue.cshtml",
+              "RelativeToolTip": "Views\\Receptionist\\DailyQueue.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:32:35.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAAKEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:40:43.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Shared\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\AccessDenied.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Shared\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Shared\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:26:44.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:41:21.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Prescriptions.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\Prescriptions.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Prescriptions.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\Prescriptions.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Prescriptions.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:31:02.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyAppointments.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\MyAppointments.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\MyAppointments.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\MyAppointments.cshtml",
+              "RelativeToolTip": "Views\\Patient\\MyAppointments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:30:33.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:40:23.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookAppointment.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\BookAppointment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\BookAppointment.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\BookAppointment.cshtml",
+              "RelativeToolTip": "Views\\Patient\\BookAppointment.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAG8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:30:19.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppointmentDetails.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\AppointmentDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\AppointmentDetails.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Patient\\AppointmentDetails.cshtml",
+              "RelativeToolTip": "Views\\Patient\\AppointmentDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:30:50.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Queue.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Doctor\\Queue.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctor\\Queue.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Doctor\\Queue.cshtml",
+              "RelativeToolTip": "Views\\Doctor\\Queue.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:31:38.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddReport.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Doctor\\AddReport.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctor\\AddReport.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Doctor\\AddReport.cshtml",
+              "RelativeToolTip": "Views\\Doctor\\AddReport.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:32:10.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddPrescription.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Doctor\\AddPrescription.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctor\\AddPrescription.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Doctor\\AddPrescription.cshtml",
+              "RelativeToolTip": "Views\\Doctor\\AddPrescription.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:31:55.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:27:13.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Users.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:28:15.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:28:29.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Clinic.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Admin\\Clinic.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Clinic.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Admin\\Clinic.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Clinic.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:28:03.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReportVM.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\ReportVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ReportVM.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\ReportVM.cs",
+              "RelativeToolTip": "ViewModels\\ReportVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:22:22.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PrescriptionVM.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\PrescriptionVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PrescriptionVM.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\PrescriptionVM.cs",
+              "RelativeToolTip": "ViewModels\\PrescriptionVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:22:13.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginVM.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "ViewModels\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:21:42.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateUserVM.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\CreateUserVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CreateUserVM.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\CreateUserVM.cs",
+              "RelativeToolTip": "ViewModels\\CreateUserVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:21:54.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookAppointmentVM.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\BookAppointmentVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BookAppointmentVM.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ViewModels\\BookAppointmentVM.cs",
+              "RelativeToolTip": "ViewModels\\BookAppointmentVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:22:05.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReceptionService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\ReceptionService.cs",
+              "RelativeDocumentMoniker": "Services\\ReceptionService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\ReceptionService.cs",
+              "RelativeToolTip": "Services\\ReceptionService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:24:48.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:24:29.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\DoctorService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\DoctorService.cs",
+              "RelativeToolTip": "Services\\DoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:24:38.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DoctorsCacheService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\DoctorsCacheService.cs",
+              "RelativeDocumentMoniker": "Services\\DoctorsCacheService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\DoctorsCacheService.cs",
+              "RelativeToolTip": "Services\\DoctorsCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:30:18.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:24:11.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\ApiClient.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\ApiClient.cs",
+              "RelativeToolTip": "Services\\ApiClient.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAAAAYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:24:02.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\AdminService.cs",
+              "RelativeToolTip": "Services\\AdminService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:24:20.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IReceptionService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IReceptionService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IReceptionService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IReceptionService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IReceptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:23:52.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPatientService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:23:34.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDoctorService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IDoctorService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:23:43.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IDoctorsCacheService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IDoctorsCacheService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDoctorsCacheService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IDoctorsCacheService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDoctorsCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:29:58.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:23:05.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IApiClient.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IApiClient.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IApiClient.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:22:54.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAdminService.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:23:13.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:20:36.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "Models\\Report.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\Report.cs",
+              "RelativeToolTip": "Models\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:21:17.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "QueueEntry.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\QueueEntry.cs",
+              "RelativeDocumentMoniker": "Models\\QueueEntry.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\QueueEntry.cs",
+              "RelativeToolTip": "Models\\QueueEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:20:56.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "Models\\Prescription.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\Prescription.cs",
+              "RelativeToolTip": "Models\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:21:06.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Models\\LoginResponse.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:20:23.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Clinic.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\Clinic.cs",
+              "RelativeDocumentMoniker": "Models\\Clinic.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\Clinic.cs",
+              "RelativeToolTip": "Models\\Clinic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:35:21.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Appointment.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Models\\Appointment.cs",
+              "RelativeToolTip": "Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:20:45.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReceptionistController.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\ReceptionistController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReceptionistController.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\ReceptionistController.cs",
+              "RelativeToolTip": "Controllers\\ReceptionistController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:26:12.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwEACAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:25:45.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:25:58.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:25:17.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:25:03.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAANMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:25:33.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:33:16.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-17T11:33:04.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:27:38.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-17T11:46:35.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T11:40:32.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ClinicQueue.csproj",
+              "DocumentMoniker": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ClinicQueue.csproj",
+              "RelativeDocumentMoniker": "ClinicQueue.csproj",
+              "ToolTip": "D:\\SEM-6\\PROJECT\\Adv.net\\ClinicQueue\\ClinicQueue.csproj",
+              "RelativeToolTip": "ClinicQueue.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-17T11:21:25.337Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
